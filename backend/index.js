@@ -26,7 +26,7 @@ let notes = [
 ]
 
 app.get("/", (req, res) => {
-  res.send("<h1>Hello World!</h>")
+  res.send("/dist/index.html")
 })
 
 app.get("/api/notes", (req, res) => {
